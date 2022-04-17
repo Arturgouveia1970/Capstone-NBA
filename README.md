@@ -1,7 +1,4 @@
-This project is MIT licensed.
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
+# NBA conference Capstone-1
 
 A NBA conference website (National Basketball Association).
 
