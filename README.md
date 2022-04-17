@@ -1,26 +1,44 @@
-# Capstone-NBA
+This project is MIT licensed.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-A NBA conference website
+# Project Name
 
-## live demo
+A NBA conference website (National Basketball Association).
 
-Built with
+## Built With
 
-Html
-Css
-Javascript
+- Html
+- Css
+- Javascript
 
-Author:
+## Live Demo
 
-Artur Gouveia
+[Live Demo Link](https://livedemo.com)
 
-GitHub:GitHub: @Arturgouveia1970
-Artur Gouveia @ArturGouveia10
-www.linkedin.com/in/artur-gouveia-323868197
+## Authors
+
+👤 **Artur Gouveia**
+
+- GitHub: [@Arturgouveia1970](https://github.com/Arturgouveia1970)
+- Twitter: [@ArturGouveia10](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/artur-gouveia-323868197)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
 
 Give a ⭐️ if you like this project!
 
-Acknowledgments
+## Acknowledgments
 
-License
-This project is MIT licensed.
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
