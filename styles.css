@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&display=swap');
 
-* {
+ {
   margin: 0;
   overflow-x: hidden;
+}
+
+main {
+  margin: 3% 3%;
 }
 
 header {
@@ -10,17 +14,16 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: whitesmoke;
   height: 35px;
   padding: 5px;
 }
 
-/*header .navB {
+header .navB {
   justify-content: flex-end;
   list-style: none;
   font-family: Lato, sans-serif;
   font-size: 10px;
-}*/
+}
 
 header .navB ul {
   display: none;
@@ -36,13 +39,228 @@ header .navB ul {
   float: left;
 }
 
-.main-tittle {
-  display: flex;
-  flex-direction: column;
-  background-image: url('./images/speakers/coby-flyer.jpg');
-  background-size: cover;
+#main-text p {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #272a31;
+  margin-top: -19px;
 }
 
-.main .main-img {
+#main-text h3 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #272a31;
+  padding: 0 15px;
+  margin-top: 5px;
+}
+
+#main-text #intro {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #272a31;
+  border: 2px solid white;
+  padding: 15px 15px;
+  margin-top: 30px;
+  background-color: rgba(238, 249, 249, 0.927);
+}
+
+#main-text h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #e6342d;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+#main-text h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #e6342d;
+  padding-top: 50px;
+}
+
+.top {
+  width: 100%;
+  height: auto;
+  background-image: url('./images/mobile-bg.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.top-speakers .MS {
+  height: auto;
+  width: 20%;
+  position: inherit;
+}
+
+#programs {
+  display: flex;
+  flex-direction: column;
+  background-color: #262930;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.program-cards h2 {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #e6342d;
+  padding: 5% 1%;
+  justify-content: center;
+}
+
+.program-cards p {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  padding-left: 4%;
+}
+
+.solid {
+  width: 20%;
+  height: 0;
+  border: 1px solid #e6342d;
+  margin: 1% 40%;
+}
+
+.program-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px #414248 solid;
+  background: #414248;
+  margin: 3% 2.5%;
+}
+
+.program-cards img {
+  max-width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+#programs .ttl {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#join-button {
+  justify-items: center;
+  color: white;
+  background: #ec5242;
+  border-style: solid;
+  border-color: #ec5242;
+  padding: 20px 15px;
+  margin: 5% 25%;
+}
+
+#see-button {
+  display: none;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 5%;
+  gap: 5%;
+  background-color: rgb(243, 246, 248);
+}
+
+.speaker-img {
+  max-height: 200px;
+  max-width: 180px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#speakers h2 {
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  padding: 1%;
+}
+
+#speakers h3 {
+  color:#e6342d;
+  font-size: 12px;
+}
+
+#speakers p {
+  font-size: 12px;
+}
+
+.top-speakers {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5%;
+  gap: 5%;
+}
+
+#more-button {
+  width: 90%;
+  height: 50px;
+  margin: 10% 5%;
+  color: #424248;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #414248;
+}
+
+#home-partners {
+  background-color: #414248;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#home-partners h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3% 20%;
+  color: #fff;
+}
+
+.home-partners {
+  display: none;
+  background-color: #414248;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#partners h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3% 20%;
+  color: #fff;
+}
+
+#partner-img {
+  padding: 20% 0;
+}
+
+#partner-img img {
+  width: 30%;
+}
+
+footer {
+  display: none;
+  flex-direction: row;
+  gap: 10%;
+}
+
+#footer-text {
+  text-align: left;
+  padding-top: 7%;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
 }
