@@ -30,14 +30,14 @@ header .navB ul {
   flex-direction: row;
 }
 
-.header-1 li img .burger {
+/*.header-1 li img .burger {
   justify-content: flex-start;
   align-items: center;
   width: 24px;
   height: 24px;
   font-size: 12px;
   float: left;
-}
+} */
 
 #main-text p {
   font-family: 'Lato', sans-serif;
@@ -84,14 +84,14 @@ header .navB ul {
   padding-top: 50px;
 }
 
-.top {
+/*.top {
   width: 100%;
   height: auto;
-  background-image: url('./images/mobile-bg.png');
+  background-image: url('./images/website-backgroud.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-}
+}*/
 
 .top-speakers .MS {
   height: auto;
@@ -164,13 +164,17 @@ header .navB ul {
   display: none;
 }
 
+#more-button:hover {
+  color: #ec5452;
+  background: rgb(16, 2, 2);
+}
+
 .speaker {
   display: flex;
   flex-direction: row;
   padding: 5% 5%;
   gap: 5%;
   background-color: rgb(243, 246, 248);
-  /* background-image: url(./images/avatar.png); */
 }
 
 .speaker-img {
@@ -205,6 +209,7 @@ header .navB ul {
   flex-direction: column;
   padding: 5% 5%;
   gap: 5%;
+  border: 1px solid rgb(33, 24, 24);
 }
 
 #more-button {
@@ -267,12 +272,6 @@ footer {
 }
 
 /* about page */
-
-#social-header {
-  background-color: #424248;
-  height: 35px;
-  justify-content: flex-end;
-}
 
 #socila-header .hamb-menu ul li a {
   color: #fff;
@@ -422,14 +421,181 @@ footer {
   margin: 5% 0;
 }
 
-.logo,
-#social-header,
-#header-button,
-#see-button,
-.hamb-menu ul,
+@media only screen and (max-width: 480px) {
+  .logo,
+  #social-header,
+  #header-button,
+  #see-button,
+  .hamb-menu {
+    display: none;
+  }
+}
+
+.menu-button {
+  padding-left: 5%;
+  z-index: 9;
+}
+
+.hamburguer {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 5px;
+  background-color: #414248;
+
+}
+
+.drop-menu {
+  display: block;
+  position: fixed;
+  top: 20;
+  left: 10;
+  width: 20%;
+  color: black;
+}
+
 .drop-menu ul {
   display: none;
+  flex-direction: column;
 }
+
+.drop-menu.active ul {
+  background-color: #ec5242d4;
+  height: 100vh;
+  display: block;
+}
+
+.drop-menu.active .menu-button {
+  background-color: #ec5242d4;
+}
+
+.menu-button.active .hamburguer:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.menu-button.active .hamburguer:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-button.active .hamburguer:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.main-scroll.active {
+  position: fixed;
+  width: 100%;
+  filter: blur(12px);
+}
+
+.drop-menu ul li a {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+  padding: 10% 3%;
+  color: #414248;
+}
+
+.drop-menu ul li {
+  overflow-y: hidden;
+}
+
+.program-cards img {
+  max-width: 40px;
+  max-height: 50px;
+}
+/* desktop version */
+@media only screen and (min-width: 480px) {
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  #social-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #424248;
+    height: 10px;
+    padding-left: 50%;
+  }
+
+  .hamb-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .hamb-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 15px;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .mySocial ul li {
+    color: rgb(216, 136, 136);
+  }
+
+  .header-2 {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-around;
+    background-color: rgb(252, 252, 252);
+  }
+
+  .header-2 .hamb-menu ul li a {
+    color: rgb(12, 11, 11);
+    font-size: 13px;
+  }
+
+  .header-2 .hamb-menu ul li #red {
+    color: #ec5242d4;
+    font-size: 13px;
+  }
+
+  .header-2 button {
+    border: 2px solid #ec5242d4;
+    font-size: 10px;
+    font-weight: 700;
+    color: #ec5242d4;
+    width: 80px;
+    height: 27px;
+    background: rgb(252, 252, 252);;
+  }
+
+  .top {
+    width: 100%;
+    height: auto;
+    background-image: url('./images/website-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  #main-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+
+
+
+
+
 
 
 

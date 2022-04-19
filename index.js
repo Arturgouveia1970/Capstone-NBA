@@ -47,4 +47,14 @@ for (let i = 0; i < speaksList.length; i += 1) {
 `;
   speakers.appendChild(el);
 }
-  
+
+/* drop down menu */
+ 
+const menuButton = document.querySelector('.menu-button');
+const navmenu = document.querySelector('.drop-menu');
+const main = document.querySelector('.mainscroll');
+menuButton.addEventListener('click', () => {
+  navmenu.classList.toggle('active');
+  main.classList.toggle('active');
+  menuButton.classList.toggle('active');
+});
