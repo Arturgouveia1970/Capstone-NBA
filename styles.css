@@ -170,6 +170,7 @@ header .navB ul {
   padding: 5% 5%;
   gap: 5%;
   background-color: rgb(243, 246, 248);
+  /* background-image: url(./images/avatar.png); */
 }
 
 .speaker-img {
@@ -264,3 +265,177 @@ footer {
   font-size: 15px;
   font-weight: 400;
 }
+
+/* about page */
+
+#social-header {
+  background-color: #424248;
+  height: 35px;
+  justify-content: flex-end;
+}
+
+#socila-header .hamb-menu ul li a {
+  color: #fff;
+  font-size: 10px;
+}
+
+#about-main {
+  font-family: Lato, sans-serif;
+  padding-bottom: 7%;
+  text-align: center;
+}
+
+#about-main h1 {
+  font-family: Cocogoose, sans-serif;
+  font-weight: 400;
+  color: #e6342d;
+}
+
+#about-main h2 {
+  font-family: Cocogoose, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #e6342d;
+}
+
+#about-main h3 {
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 7%;
+}
+
+#about-main #email {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+#logo-reveal {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  background-color: rgb(243, 246, 248);
+}
+
+#logo-reveal h2 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 2% 20%;
+}
+
+#logo-reveal p {
+  padding: 5%;
+}
+
+#logo-image {
+  max-width: 80px;
+  max-height: 300px;
+  border: 2px solid #d3d4dc;
+  margin: 5% 0;
+}
+
+#next-games {
+  padding-bottom: 7%;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  background-color: rgb(243, 246, 248);
+}
+
+#next-games h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 2% 20%;
+}
+
+#next-games p {
+  padding: 5% 20%;
+  
+}
+
+.next-game-card {
+  padding: 2% 0;
+  position: relative;
+}
+
+.next-game-card h2 {
+  position: absolute;
+  top: 5%;
+  right: 60%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.next-game-card p {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  color: #fff;
+  font-size: 10px;
+}
+
+
+
+#partners {
+  background-color: #414248;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  height: auto;
+}
+
+#partners h2 {
+  padding: 3% 20%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#partners-img {
+ padding: 5%; 
+}
+
+#partners-img img {
+  width: 30%;
+}
+
+#partners hr {
+  margin-bottom: -15%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  padding: 5% 10%;
+}
+
+#footer-text {
+  text-align: left;
+  padding-top: 2%;
+  font-family: Lato, sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.f-img {
+  max-width: 80px;
+  max-height: 300px;
+  border: 2px solid #d3d4dc;
+  margin: 5% 0;
+}
+
+.logo,
+#social-header,
+#header-button,
+#see-button,
+.hamb-menu ul,
+.drop-menu ul {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
