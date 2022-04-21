@@ -57,6 +57,14 @@ header .navB ul {
   margin-top: -19px;
 }
 
+.speaker h3 {
+  font-family: Cocogoose, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #e6342d;
+  font-size: 12px;
+}
+
 #main-text h3 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 22px;
@@ -387,14 +395,6 @@ header .navB ul {
   height: auto;
 }
 
-.speaker h3 {
-  font-family: Cocogoose, sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  color: #e6342d;
-  font-size: 12px;
-}
-
 #partners h2 {
   padding: 3% 20%;
   font-size: 20px;
@@ -633,6 +633,14 @@ footer {
     color: #6b6b6f;
   }
 
+  .speaker h3 {
+    font-family: Cocogoose, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #e6342d;
+    font-size: 12px;
+  }
+
   #main h3 {
     font-family: 'Cocogoose', sans-serif;
     font-size: 25px;
@@ -744,14 +752,6 @@ footer {
     color: #6b6b6f;
     font-size: 14px;
     text-align: left;
-  }
-
-  .speaker h3 {
-    font-family: Cocogoose, sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    color: #e6342d;
-    font-size: 12px;
   }
 
   #speakers #more-button {
