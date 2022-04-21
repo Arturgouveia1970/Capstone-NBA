@@ -29,7 +29,7 @@ const speaksList = [
     description: 'The greatest Afrian player in NBA history',
     status: 'The fisrt icon in the NBA history',
   },
-    {
+  {
     name: 'Michael Jordan',
     image: 'images/speakers/michael-jordan-playing-PNG.png',
     description: 'The greatest Player in the history of Basketball',
