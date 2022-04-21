@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&display=swap');
 
- {
+/** {
   margin: 0;
   overflow-x: hidden;
-}
+}*/
 
 main {
   margin: 3% 3%;
 }
 
-header {
+/* header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 35px;
   padding: 5px;
-}
+} */
 
 header .navB {
   justify-content: flex-end;
@@ -38,6 +38,13 @@ header .navB ul {
   font-size: 12px;
   float: left;
 } */
+
+.mobileMain {
+  background-image: url(./images/mobile-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
 
 #main-text p {
   font-family: 'Lato', sans-serif;
@@ -102,7 +109,7 @@ header .navB ul {
 #programs {
   display: flex;
   flex-direction: column;
-  background-color: #262930;
+  background-image: url(./images/program-bg.jpg);
   justify-content: center;
   margin-top: 70px;
 }
@@ -134,7 +141,7 @@ header .navB ul {
   flex-direction: row;
   justify-content: space-between;
   border: 1px #414248 solid;
-  background: #414248;
+  background: #414248 .1;
   margin: 3% 2.5%;
 }
 
@@ -178,8 +185,8 @@ header .navB ul {
 }
 
 .speaker-img {
-  max-height: 200px;
-  max-width: 180px;
+  height: 180px;
+  width: 180px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -209,7 +216,6 @@ header .navB ul {
   flex-direction: column;
   padding: 5% 5%;
   gap: 5%;
-  border: 1px solid rgb(33, 24, 24);
 }
 
 #more-button {
@@ -273,7 +279,7 @@ footer {
 
 /* about page */
 
-#socila-header .hamb-menu ul li a {
+#social-header .hamb-menu ul li a {
   color: #fff;
   font-size: 10px;
 }
@@ -282,6 +288,10 @@ footer {
   font-family: Lato, sans-serif;
   padding-bottom: 7%;
   text-align: center;
+  background-image: url(./images/speakers/coby-v-coby.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 #about-main h1 {
@@ -299,14 +309,29 @@ footer {
 
 #about-main h3 {
   font-family: Lato, sans-serif;
+  color: white;
   font-size: 12px;
   font-weight: 400;
   padding: 7%;
+  }
+
+#about-main #intro {
+  background-color: #d3d4dc;
+  font-family: Cocogoose, sans-serif;
+  font-size: 12px;
+  border: 1px solod white;
+  margin: 1% 1%;
+  color: #65666b;
+}
+
+#more-logo {
+  display: none;
 }
 
 #about-main #email {
-  font-weight: 800;
+  font-weight: 400;
   text-decoration: underline;
+  color: #fff;
 }
 
 #logo-reveal {
@@ -318,18 +343,22 @@ footer {
 #logo-reveal h2 {
   font-size: 18px;
   font-weight: 600;
+  color: #666768;
   padding: 2% 20%;
+
 }
 
 #logo-reveal p {
   padding: 5%;
+  color: #666768;
+
 }
 
 #logo-image {
   max-width: 80px;
   max-height: 300px;
   border: 2px solid #d3d4dc;
-  margin: 5% 0;
+  margin: 3% 0;
 }
 
 #next-games {
@@ -337,6 +366,15 @@ footer {
   text-align: center;
   font-family: Lato, sans-serif;
   background-color: rgb(243, 246, 248);
+}
+
+.NG h2 {
+  color: #666768;
+  padding-top: 3%;
+}
+
+.NG p {
+  color: #666768;
 }
 
 #next-games h1 {
@@ -406,6 +444,10 @@ footer {
   padding: 5% 10%;
 }
 
+.homeFooter {
+  display: none;
+}
+
 #footer-text {
   text-align: left;
   padding-top: 2%;
@@ -432,8 +474,12 @@ footer {
 }
 
 .menu-button {
+  width: 15px;
+  height: 15px;
   padding-left: 5%;
-  z-index: 9;
+  z-index: 99;
+  /*position: absolute;
+  margin-top: 0px;*/
 }
 
 .hamburguer {
@@ -446,45 +492,26 @@ footer {
 }
 
 .drop-menu {
-  display: block;
+  /*display: none; */
+  width: 100vh;
+  height: 100vh;
+  background-image: url(./images/program-bg.jpg);
   position: fixed;
-  top: 20;
-  left: 10;
-  width: 20%;
-  color: black;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 57px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  color: #fff5e1;
+  z-index: 9;
+  
 }
 
 .drop-menu ul {
-  display: none;
   flex-direction: column;
-}
-
-.drop-menu.active ul {
-  background-color: #ec5242d4;
-  height: 100vh;
-  display: block;
-}
-
-.drop-menu.active .menu-button {
-  background-color: #ec5242d4;
-}
-
-.menu-button.active .hamburguer:nth-child(1) {
-  transform: translateY(9px) rotate(45deg);
-}
-
-.menu-button.active .hamburguer:nth-child(2) {
-  opacity: 0;
-}
-
-.menu-button.active .hamburguer:nth-child(3) {
-  transform: translateY(-7px) rotate(-45deg);
-}
-
-.main-scroll.active {
-  position: fixed;
-  width: 100%;
-  filter: blur(12px);
+  list-style: none;
+  padding: 30% 0%;
+  margin-left: 60px;
 }
 
 .drop-menu ul li a {
@@ -492,20 +519,28 @@ footer {
   font-size: 40px;
   font-weight: 400;
   line-height: 44px;
-  padding: 10% 3%;
-  color: #414248;
+  color: #b3b4b9;
+  text-decoration: none;
+}
+
+.drop-menu #sigh-x {
+  margin-top: 10px;
 }
 
 .drop-menu ul li {
   overflow-y: hidden;
 }
 
-.program-cards img {
-  max-width: 40px;
-  max-height: 50px;
+.drop-menu {
+  display: none;
 }
-/* desktop version */
-@media only screen and (min-width: 480px) {
+
+/*************************************************************
+**************************************************************
+***********************desktop version***********************
+**************************************************************
+**************************************************************/
+@media only screen and (min-width: 768px) {
   html,
   body {
     width: 100%;
@@ -515,13 +550,17 @@ footer {
     overflow-x: hidden;
   }
 
+  .drop-menu {
+    display: none;
+  }
+
   #social-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     background-color: #424248;
-    height: 10px;
+    height: 20px;
     padding-left: 50%;
   }
 
@@ -550,19 +589,21 @@ footer {
   .header-2 {
     display: flex;
     flex-direction: row;
-    height: 30px;
+    height: 45px;
     justify-content: space-around;
-    background-color: rgb(252, 252, 252);
+    background-color: white;
+    box-shadow: 0 0 40px 0;
   }
 
   .header-2 .hamb-menu ul li a {
-    color: rgb(12, 11, 11);
+    color: #d3d3d3;
+    font-family: Lato, sans-serif;
     font-size: 13px;
+    font-weight: 900;
   }
 
-  .header-2 .hamb-menu ul li #red {
+  .header-2 .hamb-menu ul li a:hover {
     color: #ec5242d4;
-    font-size: 13px;
   }
 
   .header-2 button {
@@ -572,7 +613,9 @@ footer {
     color: #ec5242d4;
     width: 80px;
     height: 27px;
-    background: rgb(252, 252, 252);;
+    background: rgb(252, 252, 252);
+    align-items: center;
+    margin-top: 10px;
   }
 
   .top {
@@ -584,9 +627,252 @@ footer {
     background-position: top;
   }
 
-  #main-text {
+  #main {
     display: flex;
     flex-direction: column;
+    padding: 15% 15%;
+    margin-top: -3.3%;
+  }
+
+  #main h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #e6342d;
+  }
+
+  #main h1,
+  h2,
+  p {
+    padding: 3% 0;
+  }
+
+  #main h2 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: #e6342d;
+    line-height: 65px;
+  }
+
+  #intro {
+    font-size: 16px;
+  }
+
+  #main h3 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #272a31;
+    padding: 15px;
+  }
+
+  #main p {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272a31;
+  }
+
+  #programs {
+    margin-top: -2.9%;
+  }
+
+  #all-programs {
+    display: inline-flex;
+    justify-content: center;
+    padding: 4% 10%;
+  }
+
+  #programs .ttl {
+    font-size: 17px;
+  }
+
+  #programs .solid {
+    width: 40px;
+    margin-left: 48%;
+  }
+
+  .program-cards {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: ;
+    margin: 1% 0.15%;
+    background-color: rgba(203, 194, 228, 0.1);
+
+  }
+
+  .program-cards:hover {
+    border: 1px solid white;
+  }
+
+  .program-cards img {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    margin-left: 45%;
+  }
+
+  .program-cards h2 {
+    font-size: 10px;
+    font-family: Cocogoose, sans-serif;
+    font-weight: 100;
+    color: red;
+  }
+
+  .program-cards p {
+    font-size: 8px;
+    padding-bottom: 10%;
+  } 
+
+  #join-button {
+    display: none;
+  }
+
+  #see-button {
+    display: block;
+    border: none;
+    text-decoration: underline;
+    color: #fff;
+    background: local;
+    font-family: Cocogoose, sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    margin-bottom: 10%;
+  }
+
+  #speakers {
+    background-color: rgb(243, 246, 248);
+    padding: 3% 10%;
+  }
+
+  .top-speakers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5% 5%;
+  }
+
+  .top-speakers img {
+    width: 80px;
+    height: 100px;
+  }
+
+  #speakers .solid {
+    width: 40px;
+    margin-left: 48%;
+  }
+
+  #speakers h2 {
+    font-family: Cocogoose, sans-serif;
+    font-weight: 600;
+    color: #242427;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  #speakers #more-button {
+    display: none;
+  }
+
+  .home-partners {
+    display: block;
+    background-color: #414248;
+    padding: 2% 2%;
+  }
+
+  .home-partners #partner-img img {
+    width: 10%;
+    margin: 10px 2%;
+  }
+
+  #partner-img {
+    padding: 0;
+  }
+
+  .home-partners h2 {
+    font-family: Cocogoose, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #d3d4dc;
+  }
+
+  .home-partners .solid {
+    width: 40px;
+    margin-left: 48%;
+  }
+
+  /* about page */
+
+  #about-main {
+    background-image: url(./images/speakers/coby-v-coby.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #414248;
+  }
+
+  #about-main #intro {
+    font-family: Lato,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272a31;
+    background-color: #d3d4dc;
+    padding: 4% 10%;
+    border: 2px solid rgb(201, 201, 227);
+    margin: 0 20%;
+    justify-content: center;
+  }
+
+  #about-main h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 7%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e6342d;
+  }
+
+  #about-main #email {
+    color: whitesmoke;
+  }
+
+  #next-pair {
+    display: inline-flex;
+  }
+
+  .next-game-card {
+    padding: 2% 2%;
+  }
+
+  #next-games #tittle {
+    font-family: Cocogoose, sans-serif;
+    font-weight: 600;
+    color: #242427;
+    font-size: 14px;
+  }
+
+  .noShow {
+    display: none;
+  }
+
+  .aboutF {
+    background-color: #272a31;
+  }
+
+  .footerText {
+    color: #fff;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .homeFooter {
+    display: flex;
   }
 
 
