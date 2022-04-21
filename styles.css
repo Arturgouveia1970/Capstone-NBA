@@ -98,6 +98,15 @@ header .navB ul {
   justify-content: center;
 }
 
+.speaker h2 {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6b6b6f;
+  text-align: left;
+  padding: 1%;
+}
+
 #main-text h2 {
   font-family: 'Cocogoose', sans-serif;
   font-size: 25px;
@@ -211,21 +220,6 @@ header .navB ul {
   color: #6b6b6f;
   text-align: center;
 
-}
-
-.speaker h2 {
-  font-family: Lato, sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #6b6b6f;
-  text-align: lett;
-  padding: 1%;
-}
-
-.speaker h3 {
-  color: #e6342d;
-  font-size: 12px;
-  text-align: left;
 }
 
 #speakers p {
