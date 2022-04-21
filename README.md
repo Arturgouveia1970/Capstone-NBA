@@ -14,7 +14,7 @@ A NBA conference website (National Basketball Association).
 
 ## Promocional video
 
-[video link](https://www.loom.com/share/4664af13a22440fcb64bcc145cf01071)
+[video link](https://www.loom.com/share/28b2aa3469d4460cb840d00276a558e4)
 
 ## Authors
 
