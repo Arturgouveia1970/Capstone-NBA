@@ -10,7 +10,7 @@ A NBA conference website (National Basketball Association).
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://arturgouveia1970.github.io/Capstone-NBA/)
 
 ## Promocional video
 
