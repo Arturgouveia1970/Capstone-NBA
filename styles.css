@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&display=swap');
+
+main {
+  margin: 3% 3%;
+}
+
+header .navB {
+  justify-content: flex-end;
+  list-style: none;
+  font-family: Lato, sans-serif;
+  font-size: 10px;
+}
+
+.drop-menu ul {
+  flex-direction: column;
+  list-style: none;
+  padding: 30% 0%;
+  margin-left: 60px;
+}
+
+header .navB ul {
+  display: none;
+  flex-direction: row;
+}
+
+.mobileMain {
+  background-image: url(./images/mobile-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.next-game-card p {
+  position: absolute;
+  top: 70%;
+  right: 10%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.NG p {
+  color: #666768;
+}
+
+.program-cards p {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  padding-left: 4%;
+}
+
+#main-text p {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #272a31;
+  margin-top: -19px;
+}
+
+.speaker h3 {
+  font-family: Cocogoose, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #e6342d;
+  font-size: 12px;
+}
+
+#main-text h3 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #272a31;
+  padding: 0 15px;
+  margin-top: 5px;
+}
+
+#main-text #intro {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #272a31;
+  border: 2px solid white;
+  padding: 15px 15px;
+  margin-top: 30px;
+  background-color: rgba(238, 249, 249, 0.927);
+}
+
+.next-game-card h2 {
+  position: absolute;
+  top: 5%;
+  right: 60%;
+  color: #fff;
+  font-size: 10px;
+}
+
+.NG h2 {
+  color: #666768;
+  padding-top: 3%;
+}
+
+.program-cards h2 {
+  font-size: 20px;
+  font-family: Lato, sans-serif;
+  color: #e6342d;
+  padding: 5% 1%;
+  justify-content: center;
+}
+
+.speaker h2 {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6b6b6f;
+  text-align: left;
+  padding: 1%;
+}
+
+#main-text h2 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #e6342d;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+#main-text h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #e6342d;
+  padding-top: 50px;
+}
+
+.top-speakers .MS {
+  height: auto;
+  width: 20%;
+  position: inherit;
+}
+
+#programs {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/program-bg.jpg);
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.solid {
+  width: 20%;
+  height: 0;
+  border: 1px solid #e6342d;
+  margin: 1% 40%;
+}
+
+.program-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px #414248 solid;
+  background-color: rgba(203, 194, 228, 0.1);
+  margin: 3% 2.5%;
+}
+
+.program-cards img {
+  max-width: 60px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+#programs .ttl {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#join-button {
+  justify-items: center;
+  color: white;
+  background: #ec5242;
+  border-style: solid;
+  border-color: #ec5242;
+  padding: 20px 15px;
+  margin: 5% 25%;
+}
+
+#see-button {
+  display: none;
+}
+
+#more-button {
+  width: 90%;
+  height: 50px;
+  margin: 10% 5%;
+  color: #424248;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #414248;
+}
+
+#more-button:hover {
+  color: #ec5452;
+  background: rgb(16, 2, 2);
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row;
+  padding: 5% 0%;
+  gap: 5%;
+  background-color: rgb(243, 246, 248);
+}
+
+.speaker-img {
+  height: 130px;
+  width: 130px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#speakers #ttl {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #6b6b6f;
+  text-align: center;
+}
+
+#speakers p {
+  font-size: 12px;
+}
+
+.top-speakers {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 5%;
+  gap: 5%;
+}
+
+#home-partners {
+  background-color: #414248;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#home-partners h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3% 20%;
+  color: #fff;
+}
+
+.home-partners {
+  display: none;
+  background-color: #414248;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+#partners h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3% 20%;
+  color: #fff;
+}
+
+#partner-img {
+  padding: 20% 0;
+}
+
+#partner-img img {
+  width: 30%;
+}
+
+/* about page */
+
+.drop-menu ul li a {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #b3b4b9;
+  text-decoration: none;
+}
+
+#social-header .hamb-menu ul li a {
+  color: #fff;
+  font-size: 10px;
+}
+
+#about-main {
+  font-family: Lato, sans-serif;
+  padding-bottom: 7%;
+  text-align: center;
+  background-image: url(./images/speakers/coby-v-coby.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#about-main h1 {
+  font-family: Cocogoose, sans-serif;
+  font-weight: 400;
+  color: #e6342d;
+}
+
+#about-main h2 {
+  font-family: Cocogoose, sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #e6342d;
+}
+
+#about-main h3 {
+  font-family: Lato, sans-serif;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 7%;
+}
+
+#about-main #intro {
+  background-color: white;
+  font-family: Cocogoose, sans-serif;
+  font-size: 12px;
+  border: 1px solid white;
+  margin: 1% 1%;
+  color: #6b6b6f;
+}
+
+#more-logo {
+  display: none;
+}
+
+#about-main #email {
+  font-weight: 400;
+  text-decoration: underline;
+  color: #fff;
+}
+
+#logo-reveal {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  background-color: rgb(243, 246, 248);
+}
+
+#logo-reveal h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #666768;
+  padding: 2% 20%;
+}
+
+#logo-reveal p {
+  padding: 5%;
+  color: #666768;
+}
+
+#logo-image {
+  max-width: 80px;
+  max-height: 300px;
+  border: 2px solid #d3d4dc;
+  margin: 3% 0;
+}
+
+#next-games {
+  padding-bottom: 7%;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  background-color: rgb(243, 246, 248);
+}
+
+#next-games h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 2% 20%;
+}
+
+#next-games p {
+  padding: 5% 20%;
+}
+
+.next-game-card {
+  padding: 2% 0;
+  position: relative;
+}
+
+#partners {
+  background-color: #414248;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  height: auto;
+}
+
+#partners h2 {
+  padding: 3% 20%;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#partners-img {
+  padding: 5%;
+}
+
+#partners-img img {
+  width: 30%;
+}
+
+#partners hr {
+  margin-bottom: -15%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  padding: 5% 10%;
+}
+
+.homeFooter {
+  display: none;
+}
+
+#footer-text {
+  text-align: left;
+  padding-top: 2%;
+  font-family: Lato, sans-serif;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.f-img {
+  max-width: 80px;
+  max-height: 300px;
+  border: 2px solid #d3d4dc;
+  margin: 5% 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo,
+  #social-header,
+  #header-button,
+  #see-button,
+  .hamb-menu {
+    display: none;
+  }
+}
+
+.menu-button {
+  width: 15px;
+  height: 15px;
+  padding-left: 5%;
+  z-index: 99;
+}
+
+.hamburguer {
+  display: block;
+  width: 20px;
+  height: 3px;
+  margin: 5px;
+  background-color: #414248;
+}
+
+.drop-menu {
+  width: 100vh;
+  height: 100vh;
+  background-image: url(./images/program-bg.jpg);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 57px;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  color: #fff5e1;
+  z-index: 9;
+  display: none;
+}
+
+.drop-menu #sigh-x {
+  margin-top: 10px;
+}
+
+.drop-menu ul li {
+  overflow-y: hidden;
+}
+
+/* .drop-menu {
+  display: none;
+} */
+
+/*************************************************************
+**************************************************************
+***********************desktop version***********************
+**************************************************************
+**************************************************************/
+
+@media only screen and (min-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .drop-menu {
+    display: none;
+  }
+
+  #social-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #424248;
+    height: 20px;
+    padding-left: 50%;
+  }
+
+  .hamb-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .hamb-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    padding-right: 15px;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .mySocial ul li {
+    color: rgb(216, 136, 136);
+  }
+
+  .header-2 {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0 0 40px 0;
+  }
+
+  .header-2 .hamb-menu ul li a {
+    color: #d3d3d3;
+    font-family: Lato, sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+  }
+
+  .header-2 .hamb-menu ul li a:hover {
+    color: #ec5242d4;
+  }
+
+  .header-2 button {
+    border: 2px solid #ec5242d4;
+    font-size: 10px;
+    font-weight: 700;
+    color: #ec5242d4;
+    width: 80px;
+    height: 27px;
+    background: rgb(252, 252, 252);
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .top {
+    width: 100%;
+    height: auto;
+    background-image: url('./images/website-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    padding: 15% 15%;
+    margin-top: -3.3%;
+  }
+
+  #main h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #e6342d;
+  }
+
+  #main h1,
+  h2,
+  p {
+    padding: 3% 0;
+  }
+
+  .home-partners h2 {
+    font-family: Cocogoose, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #d3d4dc;
+  }
+
+  .program-cards h2 {
+    font-size: 10px;
+    font-family: Cocogoose, sans-serif;
+    font-weight: 100;
+    color: red;
+  }
+
+  #main h2 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: #e6342d;
+    line-height: 65px;
+  }
+
+  #intro {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 10px;
+    color: #6b6b6f;
+  }
+
+  .speaker h3 {
+    font-family: Cocogoose, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #e6342d;
+    font-size: 12px;
+  }
+
+  #main h3 {
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #272a31;
+    padding: 15px;
+  }
+
+  .program-cards p {
+    font-size: 8px;
+    padding-bottom: 10%;
+  }
+
+  #main p {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #272a31;
+  }
+
+  #programs {
+    margin-top: -2.9%;
+  }
+
+  #all-programs {
+    display: inline-flex;
+    justify-content: center;
+    padding: 4% 10%;
+  }
+
+  #programs .ttl {
+    font-size: 17px;
+  }
+
+  .home-partners .solid {
+    width: 40px;
+    margin-left: 48%;
+  }
+
+  #programs .solid {
+    width: 40px;
+    margin-left: 48%;
+  }
+
+  .program-cards {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1% 0.15%;
+    background-color: rgba(203, 194, 228, 0.1);
+  }
+
+  .program-cards:hover {
+    border: 1px solid white;
+  }
+
+  .program-cards img {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    margin-left: 45%;
+  }
+
+  #join-button {
+    display: none;
+  }
+
+  #see-button {
+    display: block;
+    border: none;
+    text-decoration: underline;
+    color: #fff;
+    background: local;
+    font-family: Cocogoose, sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+    margin-bottom: 10%;
+  }
+
+  #speakers {
+    background-color: rgb(243, 246, 248);
+    padding: 3% 10%;
+  }
+
+  .top-speakers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 5% 5%;
+  }
+
+  .top-speakers img {
+    width: 80px;
+    height: 100px;
+  }
+
+  #speakers .solid {
+    width: 40px;
+    margin-left: 48%;
+  }
+
+  #speakers h2 {
+    font-family: Cocogoose, sans-serif;
+    font-weight: 600;
+    color: #6b6b6f;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  #speakers #more-button {
+    display: none;
+  }
+
+  .home-partners {
+    display: block;
+    background-color: #414248;
+    padding: 2% 2%;
+  }
+
+  .home-partners #partner-img img {
+    width: 10%;
+    margin: 10px 2%;
+  }
+
+  #partner-img {
+    padding: 0;
+  }
+
+  /* about page */
+
+  #about-main {
+    background-image: url(./images/speakers/coby-v-coby.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #414248;
+  }
+
+  #about-main h3 {
+    font-family: 'Lato', sans-serif;
+    padding: 7%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e6342d;
+  }
+
+  #about-main #email {
+    color: whitesmoke;
+  }
+
+  #next-pair {
+    display: inline-flex;
+  }
+
+  .next-game-card {
+    padding: 2% 2%;
+  }
+
+  #next-games #tittle {
+    font-family: Cocogoose, sans-serif;
+    font-weight: 600;
+    color: #242427;
+    font-size: 14px;
+  }
+
+  .noShow {
+    display: none;
+  }
+
+  .aboutF {
+    background-color: #272a31;
+  }
+
+  .footerText {
+    color: #fff;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .homeFooter {
+    display: flex;
+  }
+}
