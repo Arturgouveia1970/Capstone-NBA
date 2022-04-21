@@ -1,22 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato&family=Poppins&display=swap');
 
-/** {
-  margin: 0;
-  overflow-x: hidden;
-}*/
-
 main {
   margin: 3% 3%;
 }
-
-/* header {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 35px;
-  padding: 5px;
-} */
 
 header .navB {
   justify-content: flex-end;
@@ -29,15 +15,6 @@ header .navB ul {
   display: none;
   flex-direction: row;
 }
-
-/*.header-1 li img .burger {
-  justify-content: flex-start;
-  align-items: center;
-  width: 24px;
-  height: 24px;
-  font-size: 12px;
-  float: left;
-} */
 
 .mobileMain {
   background-image: url(./images/mobile-bg.png);
@@ -90,15 +67,6 @@ header .navB ul {
   color: #e6342d;
   padding-top: 50px;
 }
-
-/*.top {
-  width: 100%;
-  height: auto;
-  background-image: url('./images/website-backgroud.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
-}*/
 
 .top-speakers .MS {
   height: auto;
@@ -313,7 +281,7 @@ footer {
   font-size: 12px;
   font-weight: 400;
   padding: 7%;
-  }
+}
 
 #about-main #intro {
   background-color: #d3d4dc;
@@ -345,13 +313,11 @@ footer {
   font-weight: 600;
   color: #666768;
   padding: 2% 20%;
-
 }
 
 #logo-reveal p {
   padding: 5%;
   color: #666768;
-
 }
 
 #logo-image {
@@ -385,7 +351,6 @@ footer {
 
 #next-games p {
   padding: 5% 20%;
-  
 }
 
 .next-game-card {
@@ -408,8 +373,6 @@ footer {
   color: #fff;
   font-size: 10px;
 }
-
-
 
 #partners {
   background-color: #414248;
@@ -463,7 +426,7 @@ footer {
   margin: 5% 0;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .logo,
   #social-header,
   #header-button,
@@ -478,8 +441,6 @@ footer {
   height: 15px;
   padding-left: 5%;
   z-index: 99;
-  /*position: absolute;
-  margin-top: 0px;*/
 }
 
 .hamburguer {
@@ -492,7 +453,6 @@ footer {
 }
 
 .drop-menu {
-  /*display: none; */
   width: 100vh;
   height: 100vh;
   background-image: url(./images/program-bg.jpg);
@@ -504,7 +464,6 @@ footer {
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   color: #fff5e1;
   z-index: 9;
-  
 }
 
 .drop-menu ul {
@@ -540,6 +499,7 @@ footer {
 ***********************desktop version***********************
 **************************************************************
 **************************************************************/
+
 @media only screen and (min-width: 768px) {
   html,
   body {
@@ -700,7 +660,6 @@ footer {
     justify-content: ;
     margin: 1% 0.15%;
     background-color: rgba(203, 194, 228, 0.1);
-
   }
 
   .program-cards:hover {
@@ -874,7 +833,6 @@ footer {
   .homeFooter {
     display: flex;
   }
-
 
 }
 
