@@ -189,14 +189,14 @@ header .navB ul {
 .speaker {
   display: flex;
   flex-direction: row;
-  padding: 5% 5%;
+  padding: 5% 0%;
   gap: 5%;
   background-color: rgb(243, 246, 248);
 }
 
 .speaker-img {
-  height: 180px;
-  width: 180px;
+  height: 130px;
+  width: 130px;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -204,17 +204,28 @@ header .navB ul {
   padding-bottom: 3%;
 }
 
-#speakers h2 {
+#speakers #ttl {
   font-family: Lato, sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 800;
+  color: #6b6b6f;
   text-align: center;
+
+}
+
+.speaker h2 {
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6b6b6f;
+  text-align: lett;
   padding: 1%;
 }
 
-#speakers h3 {
+.speaker h3 {
   color: #e6342d;
   font-size: 12px;
+  text-align: left;
 }
 
 #speakers p {
@@ -311,12 +322,12 @@ header .navB ul {
 }
 
 #about-main #intro {
-  background-color: #d3d4dc;
+  background-color: white;
   font-family: Cocogoose, sans-serif;
   font-size: 12px;
   border: 1px solid white;
   margin: 1% 1%;
-  color: #65666b;
+  color: #6b6b6f;
 }
 
 #more-logo {
@@ -616,7 +627,9 @@ footer {
   }
 
   #intro {
-    font-size: 16px;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: 10px;
+    color: #6b6b6f;
   }
 
   #main h3 {
@@ -727,7 +740,7 @@ footer {
   #speakers h2 {
     font-family: Cocogoose, sans-serif;
     font-weight: 600;
-    color: #242427;
+    color: #6b6b6f;
     font-size: 14px;
     text-align: left;
   }
@@ -759,18 +772,6 @@ footer {
     background-repeat: no-repeat;
     background-position: top;
     background-color: #414248;
-  }
-
-  #about-main #intro {
-    font-family: Lato, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #272a31;
-    background-color: #d3d4dc;
-    padding: 4% 10%;
-    border: 2px solid rgb(201, 201, 227);
-    margin: 0 20%;
-    justify-content: center;
   }
 
   #about-main h3 {

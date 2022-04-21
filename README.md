@@ -12,6 +12,10 @@ A NBA conference website (National Basketball Association).
 
 [Live Demo Link](https://livedemo.com)
 
+## Promocional video
+
+[video link](https://www.loom.com/share/4664af13a22440fcb64bcc145cf01071)
+
 ## Authors
 
 👤 **Artur Gouveia**
