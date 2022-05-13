@@ -1,6 +1,6 @@
 # NBA conference Capstone-1
 
-A NBA conference website (National Basketball Association).wwwwwwwwwwwwwwwwwwwww
+A NBA conference website (National Basketball Association).
 
 ## Built With
 
